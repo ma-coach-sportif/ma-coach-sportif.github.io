@@ -1,0 +1,23 @@
+#nav, #nav * {margin: 0;padding: 0;list-style: none;}
+#nav {line-height: 1;}
+#nav ul {position: absolute;top: -999em;width: 13em;}
+#nav ul li {width: 100%;}
+#nav li:hover {visibility: inherit;}
+#nav li {position: relative;display: inline;margin: 0 10px;}
+#nav a {position: relative;}
+#nav li:hover ul, #nav li.sfHover ul {left: 0;top: 62px;z-index: 99;}
+ul#nav li:hover li ul, ul#nav li.sfHover li ul {top: -999em;}
+ul#nav li li:hover ul, ul#nav li li.sfHover ul {left: 13em;top: 0;}
+ul#nav li li:hover li ul, ul#nav li li.sfHover li ul {top: -999em;}
+ul#nav li li li:hover ul, ul#nav li li li.sfHover ul {left: 13em;top: 0px;}
+#nav {font-family: "Century Gothic",Comfortaa;font-size: 18px;text-align: center;line-height: 2.5em;}
+#nav a {padding: 8px 15px;text-decoration: none;white-space: nowrap;}
+#nav a, #nav a:visited {color: #580056;}
+#nav li li {border-bottom: 1px solid #4c4c4c;}
+#nav li li a {font-size: 12px;padding: 1em;}
+#nav li li a {background: #444;color: #c9c9c9;}
+#nav li li a:visited {color: #c9c9c9;}
+#nav li ul {background: #fd7800;}
+#nav a:focus, #nav a:hover, #nav a:active {outline: 0;color: #fff;background: url("../images/bg_menu_over.jpg") repeat-x center;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;}
+#nav li ul li a:focus, #nav li ul li a:hover, #nav li ul li a:active {outline: 0;color: #fff;background: url("../images/bg_menu_over.jpg") repeat-x center;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;}
+#nav li.current_page_item > a, #nav li.current-menu-item > a, #nav li.current-cat > a {outline: 0;color: #fff;background: url("../images/bg_menu_over.jpg") repeat-x center;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;}
